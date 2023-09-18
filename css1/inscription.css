@@ -11,14 +11,14 @@
   justify-content: center;
   align-items: center;
 }
-.cards .card1 {
+/* .cards .card1 {
   width: 200px;
   height: 310px;
   background: url(../images/tontine2.jpg);
   background-size: cover;
   border-radius: 10px;
   background-position: center;
-}
+} */
 .cards .card2 {
   width: 420px;
   height: auto;
@@ -47,6 +47,8 @@ form .input {
   border: none;
   background: none;
   border-bottom: 2px solid white;
+  height: 30px;
+
   border-radius: 5px;
   outline: none;
 }
