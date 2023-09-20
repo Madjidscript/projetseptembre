@@ -61,7 +61,7 @@ body {
   content: "";
   height: 15px;
   width: 15px;
-  background-color: blanchedalmond;
+  background-color: black;
   top: 28px;
   z-index: -1;
   transform: rotate(45deg);

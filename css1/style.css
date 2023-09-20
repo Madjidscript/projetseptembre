@@ -1,0 +1,208 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #2b4c45;
+  font-family: "Mulish Regular", Sans-serif;
+}
+.section1 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  margin-bottom: 30px;
+  position: relative;
+}
+.section1 .content {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-position: 100%;
+}
+.container {
+  position: relative;
+  min-height: auto;
+  padding-bottom: 20px;
+}
+.container .titre {
+  width: 300px;
+  height: 70px;
+  border: 2px solid white;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #26a65b;
+  border-radius: 15px;
+}
+.container h1 {
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 40px;
+  font-weight: normal;
+}
+.container .box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 10px;
+}
+.container .box .card {
+  height: 130px;
+  width: 250px;
+  padding: 30px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 2rem;
+  display: block;
+  text-align: center;
+  background-color: white;
+  border-bottom: 10px solid #26a65b;
+  color: black;
+  /* border-radius: 1rem; */
+  font-size: 18px;
+}
+.numero {
+  color: #26a65b;
+  font-weight: bold;
+  font-size: 58px;
+}
+
+/* partie service */
+.containers {
+  position: relative;
+  min-height: auto;
+  padding-bottom: 20px;
+}
+.containers .titres {
+  width: 300px;
+  height: 70px;
+  border: 2px solid white;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #26a65b;
+  border-radius: 15px;
+}
+.containers .boxs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 10px;
+}
+.containers .boxs .card {
+  height: 150px;
+  width: 370px;
+  padding: 20px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 2rem;
+  display: block;
+  text-align: center;
+  background-color: #162724;
+  /* border-bottom: 10px solid #26a65b; */
+  color: white;
+  border-radius: 1rem;
+}
+.containers .boxs .card h3 {
+  color: #26a65b;
+  margin-bottom: 20px;
+}
+
+/* partie service */
+
+/* partie temoignage */
+.content {
+  position: relative;
+  min-height: auto;
+  padding-bottom: 20px;
+  width: 90%;
+  margin: 0px auto;
+  /* background-color: red; */
+}
+.content h1 {
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 40px;
+  font-weight: normal;
+}
+.content .titre {
+  width: 300px;
+  height: 70px;
+  border: 2px solid white;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #26a65b;
+  border-radius: 15px;
+}
+.content .box2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 10px;
+}
+.content .box2 .cardre {
+  height: auto;
+  width: 310px;
+  padding: 70px 0px 20px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 2rem;
+  display: block;
+  text-align: center;
+  background-color: #162724;
+  position: relative;
+  color: black;
+  border-radius: 1rem;
+}
+.cardre .image {
+  width: 50px;
+  height: 50px;
+
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 5px;
+  top: 0px;
+}
+.cardre .text p {
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+.reference {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+
+  line-height: 80px;
+  margin: 0px auto;
+}
+.reference .photo {
+  width: 50px;
+  height: 70px;
+  background-size: cover;
+  background-image: url(../images/homme.jpeg);
+  background-position: center center;
+  border-radius: 100px;
+}
+.reference .nom p {
+  font-weight: bold;
+  color: #26a65b;
+  font-size: 20px;
+}

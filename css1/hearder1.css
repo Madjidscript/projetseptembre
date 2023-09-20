@@ -73,8 +73,8 @@ input[type="checkbox"] {
   /* user-select: none; */
 }
 a.active {
-  color: #26a65b;
-  border-bottom: 1px solid #00c853;
+  /* color: #00c853; */
+  border-bottom: 2px solid #00c853;
 }
 
 /* APPLYING MEDIA QUERIES */
