@@ -26,6 +26,7 @@ body {
   padding: 15px;
   font-size: 40px;
   font-weight: normal;
+  /* background-color: black; */
 }
 .container .box {
   display: flex;
@@ -41,7 +42,7 @@ body {
   width: 350px;
   padding: 70px 0px;
   border-radius: 5px;
-  cursor: pointer;
+  /* cursor: pointer; */
   overflow: hidden;
   margin: 2rem;
   display: block;
@@ -144,3 +145,7 @@ input::placeholder {
       width: 100%;
     }
   } */
+.content #contact {
+  display: flex;
+  border-radius: 5px;
+}

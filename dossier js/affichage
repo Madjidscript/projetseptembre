@@ -1,0 +1,7 @@
+let userconnecter = JSON.parse(localStorage.getItem("sex1"));
+let nom = document.querySelector(".noms");
+let email = document.querySelector(".emails");
+let boutonEdit = document.querySelector("#btedit");
+nom.innerHTML = userconnecter.nom;
+email.innerHTML = userconnecter.email;
+boutonEdit.href = `./tbedit.html?id=${userconnecter.id}`;

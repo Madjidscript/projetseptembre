@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="../css 2/contact.css" />
     <link rel="stylesheet" href="../css 2/tontines.css" />
+  
 
     <title>Document</title>
   </head>
@@ -111,7 +112,7 @@
                   />
                 </li>
                 <li>
-                  <a href="../tableau doc/tbprofil.html"
+                  <a href="./corporate2/contact.html"
                     ><img src="../images/profil.png" alt="" class="profil"
                   /></a>
                 </li>
@@ -119,27 +120,68 @@
             </ul>
           </nav>
         </div>
-        <div class="content">
-          <!-- partie tableau de contribution -->
-          <table id="table" class="tableau-style">
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Non Tontine</th>
-                <th>Contact</th>
-                <th>Montant</th>
-              </tr>
-            </thead>
-
-            <tbody id="insert"></tbody>
-          </table>
-          <!-- partie tableau de contribution -->
+        <div class="content" >
+          <!-- partie paiement -->
+          <div class="container" id="contact" >
+            <div class="box"  style="height: auto;">
+              <div class="card " id="cards1" style="height: 400px" >
+                <div class="carre">
+                  <div class="icon"><img src="../images/localisation.png" alt="" height="30px" width="30px"></div>
+                  <div class="text">
+                    <h3>Address</h3>
+                    <p>Abidjan, Cocody Gestoci</p>
+                  </div>
+                </div>
+                <div class="carre">
+                  <div class="icon"><img src="../images/istockphoto-1180028723-170x170.jpg" alt="" height="30px" width="30px"></div>
+                  <div class="text">
+                    <h3>Telephone</h3>
+                    <p>01 - 53 - 5- 5 - 65 </p>
+                  </div>
+                </div>
+                <div class="carre">
+                  <div class="icon"><img src="../images/email_mesasge_envelope_icon_131541.png" alt="" height="30px" width="30px"></div>
+                  <div class="text">
+                    <h3>Email</h3>
+                    <p>latoundev@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card " id="cards2" style="width: 420px">
+                <h3>Envoyer votre message</h3>
+                <form action="">
+                  <div class="input">
+                    <div class="champs" style="margin-bottom: 60px; margin-top: 25px">
+                      <input
+                        type="text"
+                        name="nom"
+                        id="nom"
+                        placeholder="   enter votre nom"
+                      />
+                    </div>
+                    <div class="champs" style="margin-bottom: 60px">
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="   entrer votre mail"
+                      />
+                    </div>
+                    <div class="champs" style="margin-bottom: 60px">
+                      <textarea name="" id="" cols="30" rows="10" placeholder="entrer votre message" class="message"></textarea>
+                      
+                    </div>
+                    
+                    
+                  <div><input type="submit" value="Envoyer" class="envoyer" /></div>
+                </form>
+              </div>
+            </div>
+          </div>
+      
+          <!-- fin paiement -->
         </div>
       </div>
     </div>
-    <!-- <script src="../dossier js/affichage"></script>
-    <script src="../dossier js/paiement.js"></script>
-    <script src="../dossier js/contribution.js"></script> -->
-    <script src="../dossier js/tableau.js"></script>
   </body>
 </html>

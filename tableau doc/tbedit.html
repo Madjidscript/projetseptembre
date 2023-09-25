@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="../css 2/contact.css" />
     <link rel="stylesheet" href="../css 2/tontines.css" />
+    <link rel="stylesheet" href="../css1/edit.css" />
 
     <title>Document</title>
   </head>
@@ -111,7 +112,7 @@
                   />
                 </li>
                 <li>
-                  <a href="../tableau doc/tbprofil.html"
+                  <a href="./corporate2/contact.html"
                     ><img src="../images/profil.png" alt="" class="profil"
                   /></a>
                 </li>
@@ -120,26 +121,68 @@
           </nav>
         </div>
         <div class="content">
-          <!-- partie tableau de contribution -->
-          <table id="table" class="tableau-style">
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Non Tontine</th>
-                <th>Contact</th>
-                <th>Montant</th>
-              </tr>
-            </thead>
-
-            <tbody id="insert"></tbody>
-          </table>
-          <!-- partie tableau de contribution -->
+          <!-- partie paiement -->
+          <div class="cards" id="edit">
+            <!-- <div class="card1"></div> -->
+            <div class="card2">
+              <div class="croix">
+                <a href="../index.html"
+                  ><img src="../images/ferme1.png" alt=""
+                /></a>
+              </div>
+              <div class="rond"></div>
+              <form>
+                <div class="input">
+                  <div
+                    class="champs"
+                    style="margin-bottom: 60px; margin-top: 25px"
+                  >
+                    <input
+                      type="text"
+                      name="nom"
+                      id="non"
+                      placeholder="   enter votre nom"
+                    />
+                  </div>
+                  <div class="champs" style="margin-bottom: 60px">
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      disabled
+                      placeholder="   entrer votre mail"
+                    />
+                  </div>
+                  <div class="champs" style="margin-bottom: 60px">
+                    <input
+                      type="password"
+                      name="password"
+                      id="password"
+                      placeholder="  entrer votre mot de pass"
+                    />
+                  </div>
+                  <div class="champs">
+                    <input
+                      type="number"
+                      name="numero"
+                      id="numero"
+                      placeholder="  entrer votre contact"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <input type="submit" value="Modifier" class="envoyer" />
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- fin paiement -->
         </div>
       </div>
     </div>
-    <!-- <script src="../dossier js/affichage"></script>
-    <script src="../dossier js/paiement.js"></script>
+    <!-- <script src="../dossier js/affichage"></script> -->
+    <script src="../dossier js/editer.js"></script>
+    <!-- <script src="../dossier js/paiement.js"></script>
     <script src="../dossier js/contribution.js"></script> -->
-    <script src="../dossier js/tableau.js"></script>
   </body>
 </html>

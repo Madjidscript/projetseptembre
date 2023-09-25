@@ -47,17 +47,18 @@ form .input {
   border: none;
   background: none;
   border-bottom: 2px solid white;
-  border-radius: 5px;
+  color: white;
+  /* border-radius: 5px; */
   outline: none;
 }
-.pp1,
-.pp2,
-.pp3 {
+#contacts,
+#montant {
   display: none;
 }
 input::placeholder {
   color: white;
 }
+
 .envoyer {
   width: 150px;
   margin-top: 10px;
@@ -69,6 +70,7 @@ input::placeholder {
   outline: none;
   border: none;
   border-radius: 10.18px;
+  display: none;
 }
 h3 {
   color: white;
@@ -96,18 +98,7 @@ p a {
   color: #00c853;
   margin-top: 10px;
 }
-.message {
-  width: auto;
-  height: auto;
-  padding: 20px;
-  border-radius: 0px 100px 0px 100px;
-  background-color: white;
-  color: #00c853;
-  font-weight: bold;
-  /* margin-top: -150px; */
-  z-index: 1;
-  display: none;
-}
+
 /* .pp {
     width: 100%;
     height: auto;
@@ -123,3 +114,8 @@ p a {
         width: 100%;
       }
     } */
+
+.content #paiye {
+  display: flex;
+  border-radius: 5px;
+}

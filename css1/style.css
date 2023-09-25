@@ -33,8 +33,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #26a65b;
-  border-radius: 15px;
+  background-color: #00c853;
+  /* border-radius: 15px; */
 }
 .container h1 {
   color: white;
@@ -61,15 +61,81 @@ body {
   display: block;
   text-align: center;
   background-color: white;
-  border-bottom: 10px solid #26a65b;
+  border-bottom: 10px solid #00c853;
   color: black;
   /* border-radius: 1rem; */
   font-size: 18px;
 }
 .numero {
-  color: #26a65b;
+  color: #00c853;
   font-weight: bold;
   font-size: 58px;
+}
+
+/* partie apropos */
+.contener {
+  position: relative;
+  min-height: auto;
+  padding-bottom: 20px;
+}
+
+.contener .titre {
+  width: 300px;
+  height: 70px;
+  border: 2px solid white;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00c853;
+  /* border-radius: 15px; */
+}
+.contener h1 {
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.contener .boss {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 10px;
+}
+.contener .boss .cont {
+  height: 250px;
+  width: 370px;
+  padding: 20px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 2rem;
+  display: block;
+  text-align: center;
+  background-color: #162724;
+  /* border-bottom: 10px solid #00c853; */
+  color: white;
+  border-radius: 1rem;
+}
+
+.contener .boss .cont.cont1 {
+  width: 450px;
+
+  border-radius: 0px 53px 0px 53px;
+  padding: 40px 10px;
+}
+
+.contener .boss .cont.cont1 p {
+  text-align: left;
+}
+.contener .boss .cont.cont2 {
+  width: 370px;
+  background-image: url(../images/grand1.jpg);
+  background-size: cover;
+  border: 10px solid #00c853;
 }
 
 /* partie service */
@@ -86,8 +152,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #26a65b;
-  border-radius: 15px;
+  background-color: #00c853;
+  /* border-radius: 15px; */
 }
 .containers .boxs {
   display: flex;
@@ -107,12 +173,12 @@ body {
   display: block;
   text-align: center;
   background-color: #162724;
-  /* border-bottom: 10px solid #26a65b; */
+  /* border-bottom: 10px solid #00c853; */
   color: white;
   border-radius: 1rem;
 }
 .containers .boxs .card h3 {
-  color: #26a65b;
+  color: #00c853;
   margin-bottom: 20px;
 }
 
@@ -142,8 +208,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #26a65b;
-  border-radius: 15px;
+  background-color: #00c853;
+  /* border-radius: 15px; */
 }
 .content .box2 {
   display: flex;
@@ -203,6 +269,6 @@ body {
 }
 .reference .nom p {
   font-weight: bold;
-  color: #26a65b;
+  color: #00c853;
   font-size: 20px;
 }

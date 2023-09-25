@@ -47,13 +47,13 @@ form .input {
   border: none;
   background: none;
   border-bottom: 2px solid white;
-  border-radius: 5px;
+ color: white;
   outline: none;
 }
 input::placeholder {
   color: white;
 }
-.envoyer {
+.connexion {
   width: 150px;
   margin-bottom: 20px;
   padding: 15px;

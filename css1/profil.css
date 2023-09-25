@@ -37,13 +37,13 @@
   padding: 10px;
   border-radius: 15px 15px 0px 0px;
 }
-.carre .rond {
+.carre .ronds {
   width: 80px;
   height: 80px;
   border-radius: 100%;
-  background: url(../images/WhatsApp\ Image\ 2023-07-07\ at\ 12.18.38.jpeg);
+  background: url(../images/madjid.jpg);
+  background-color: #fff;
   background-size: cover;
-  background-position: center center;
   bottom: -30px;
   position: absolute;
 }
@@ -58,8 +58,7 @@
 }
 .envoyer {
   width: 150px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin: 20px auto;
   padding: 20px;
   background-color: #00c853;
   color: white;
@@ -85,3 +84,8 @@
         width: 100%;
       }
     } */
+
+.content #profil {
+  display: flex;
+  border-radius: 5px;
+}

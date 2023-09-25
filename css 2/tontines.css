@@ -274,3 +274,11 @@ input[type="checkbox"] {
   background-color: #00c853;
   color: white;
 }
+
+.content #tontines {
+  display: flex;
+  border-radius: 5px;
+  /* background-color: aqua; */
+  height: auto;
+  overflow: hidden;
+}

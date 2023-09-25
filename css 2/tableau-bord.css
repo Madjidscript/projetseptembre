@@ -1,0 +1,282 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.navbar .logo {
+  position: relative;
+  color: black;
+  top: 15px;
+  /* left: 4px; */
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: aqua; */
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+.seibar {
+  width: 300px;
+  height: auto;
+  /* background-color: #1d1627; */
+}
+.container .box {
+  /* width: 1100px; */
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: #2b4c45;
+  margin: 0px auto;
+}
+.hearder {
+  width: 100%;
+  height: 15%;
+  /* background-color: white; */
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  width: 100%;
+  height: 70vh;
+  background-color: black;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* pertie seibar */
+
+.seibar .navbar {
+  width: 100%;
+  height: auto;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #00c853;
+}
+.seibar .navbar .menu {
+  display: block;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 110px;
+}
+.menu li span img {
+  display: none;
+}
+
+/* partie navbar */
+.hearder .navbar {
+  width: 100%;
+  background-color: #00c853;
+  border-radius: 5px;
+}
+.hearder .navbar ul .nav-links {
+  background-color: blue;
+}
+
+.hearder .navbar.logo {
+  margin-top: 10px;
+}
+.cherche {
+  width: 320px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  margin-top: 15px;
+}
+.profil {
+  width: 40px;
+  height: 40px;
+  margin-right: 80px;
+}
+.cherche::placeholder {
+  color: black;
+}
+.solde {
+  font-size: 30px;
+  color: black;
+  margin-left: 80px;
+}
+
+/* media querie seidbar */
+@media (max-width: 974px) {
+  .seibar .menu li a {
+    display: flex;
+  }
+  .seibar .navbar .menu {
+    /* width: 100%; */
+    /* background-color: #fff; */
+    /* display: none; */
+  }
+
+  .menu li {
+    margin-top: 1px;
+  }
+
+  input[type="checkbox"]:checked ~ .nav-links .menu {
+    display: block;
+  }
+
+  .hamburger {
+    display: none;
+  }
+  .cherche {
+    width: 250px;
+    height: 40px;
+  }
+}
+@media (max-width: 868px) {
+  .seibar .navbar .menu {
+    width: 100%;
+    /* background-color: #fff; */
+  }
+  .navbar .logo {
+    font-size: 20px;
+    margin-top: -30px;
+  }
+  .navbar .cherche {
+    width: 150px;
+  }
+}
+/* @media (max-width: 428px) {
+  .navbar .logo {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+    top: 30px;
+    left: -15px;
+  }
+}
+@media (max-width: 375px) {
+  .navbar .logo {
+    font-size: 15px;
+    font-weight: bold;
+    top: 10px;
+    left: -15px;
+  }
+} */
+@media (max-width: 778px) {
+  .box {
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .container {
+    flex-wrap: wrap;
+  }
+  .seibar {
+    width: 95%;
+    height: auto;
+    line-height: 100px;
+    /* background-color: yellow; */
+    margin: 30px auto;
+  }
+  .seibar .navbar {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    margin: 0px auto;
+    background-color: #00c853;
+    /* margin-left: 20px; */
+  }
+  .seibar .navbar .menu {
+    display: flex;
+    flex-wrap: wrap !important;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    height: auto;
+    width: 320px;
+    margin: 0px auto;
+    display: none;
+    border: 2px solid white;
+  }
+
+  .content {
+    width: 100%;
+  }
+}
+
+/* partie content  noir */
+.content #contribution {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  padding: 20px 0px;
+  margin-top: 40px;
+  display: none;
+}
+.content #paiye {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  padding: 20px 0px;
+  background-color: black;
+  display: block;
+}
+.content #profil {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: block;
+}
+
+.content #edit {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  padding: 20px 0px;
+  background-color: black;
+  display: block;
+}
+.content #tontines {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  padding: 20px 0px;
+  /* background-color: black; */
+  display: block;
+}
+.content #contact {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  /* background-color: black; */
+  display: block;
+}
+/* partie tableau  */
+.content .tableau-style {
+  border-collapse: collapse;
+  min-width: 400px;
+  height: auto;
+  width: auto;
+  box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  /* margin: 30px auto; */
+  border: 2px solid white;
+}
+tr {
+  background-color: #00c853;
+  text-align: left;
+}
+th,
+td {
+  padding: 15px 20px;
+  border: 1px solid #ddd;
+}
