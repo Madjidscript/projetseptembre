@@ -52,6 +52,8 @@ function verifChamp() {
   }
   return true;
 }
+// // recup session
+// let recupsesion = JSON.parse(localStorage.getItem("sex1"));
 
 // partie envoie des donner
 

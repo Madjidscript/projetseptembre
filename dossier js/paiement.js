@@ -47,7 +47,6 @@ function verifChamp() {
   }
   return true;
 }
-console.log(verifChamp());
 
 // partie envoie des donner
 

@@ -61,6 +61,6 @@ inputBouton.addEventListener("click", (e) => {
       "votre contributions a ete effectuer avec succés veuillez verifie votre tableau de bord"
     );
     envoie();
-    window.location.href = "../corporate2/tableau-bord.html";
+    window.location.href = "../corporate 1/connexion.html";
   }
 });

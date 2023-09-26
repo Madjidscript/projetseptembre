@@ -19,3 +19,32 @@ function afficheDataCont() {
 }
 
 document.onload = afficheDataCont();
+
+let messagePaiement = JSON.parse(localStorage.getItem("paiement"));
+
+function afficheDataPaiement() {
+  let date = "";
+  messagePaiement.forEach((element) => {
+    date += ` <p>${element.dates} </p>
+    
+    `;
+  });
+
+  document.querySelector(".date").innerHTML = date;
+}
+
+document.onload = afficheDataPaiement();
+
+function afficheDataMontant() {
+  let montant = "";
+  messagePaiement.forEach((element) => {
+    montant += ` <p>${element.montants} </p>
+    
+    `;
+  });
+
+  document.querySelector(".valeur").innerHTML = montant;
+  package.style.marginBottom = "2px";
+}
+
+document.onload = afficheDataMontant();
