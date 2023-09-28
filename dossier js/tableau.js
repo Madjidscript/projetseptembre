@@ -8,7 +8,7 @@ function afficheDataCont() {
     html += `
     <tr>
       <td>${element.dates} </td>
-      <td>${element.password} </td>
+      <td>${element.email} </td>
       <td>${element.contact} </td>
       <td>${element.montants}</td>
     </tr>`;
@@ -38,13 +38,10 @@ document.onload = afficheDataPaiement();
 function afficheDataMontant() {
   let montant = "";
   messagePaiement.forEach((element) => {
-    montant += ` <p>${element.montants} </p>
-    
-    `;
+    montant += ` <p>${element.montants} </p> `;
   });
 
   document.querySelector(".valeur").innerHTML = montant;
-  package.style.marginBottom = "2px";
 }
 
 document.onload = afficheDataMontant();

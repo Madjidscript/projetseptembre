@@ -1,4 +1,5 @@
 let userconnecter = JSON.parse(localStorage.getItem("sex1"));
+console.log(userconnecter);
 let nom = document.querySelector(".noms");
 let email = document.querySelector(".emails");
 let boutonEdit = document.querySelector("#btedit");

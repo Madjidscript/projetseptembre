@@ -30,7 +30,7 @@ cliquer3.addEventListener("click", (e) => {
 
 function verifChamp() {
   let dates = document.querySelector("#date").value;
-  let password = document.querySelector("#password").value;
+  let email = document.querySelector("#email").value;
   let contact = document.querySelector("#contacts").value;
   let montants = document.querySelector("#montant").value;
 
@@ -38,7 +38,7 @@ function verifChamp() {
     alert("entrer la date");
     return false;
   }
-  if (password === "") {
+  if (email === "") {
     alert("entrer votre mots de pass");
     return false;
   }
@@ -61,13 +61,13 @@ function envoie() {
   let bdDonner = JSON.parse(localStorage.getItem("contribution")) || [];
 
   let dates = document.querySelector("#date").value;
-  let password = document.querySelector("#password").value;
+  let email = document.querySelector("#email").value;
   let contact = document.querySelector("#contacts").value;
   let montants = document.querySelector("#montant").value;
 
   let objetDonner = {
     dates: dates,
-    password: password,
+    email: email,
     contact: contact,
     montants: montants,
   };

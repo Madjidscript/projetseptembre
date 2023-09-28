@@ -66,4 +66,5 @@ envoieModif.addEventListener("click", (e) => {
   e.preventDefault();
   modif();
   window.location.href = "../tableau doc/tbprofil.html";
+  window.location.reload();
 });
