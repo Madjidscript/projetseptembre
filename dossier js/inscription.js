@@ -58,7 +58,7 @@ inputBouton.addEventListener("click", (e) => {
   if (verifChamp() === true) {
     e.preventDefault();
     alert(
-      "votre contributions a ete effectuer avec succés veuillez verifie votre tableau de bord"
+      "votre inscription a ete effectuer avec succes"
     );
     envoie();
     window.location.href = "../corporate 1/connexion.html";
