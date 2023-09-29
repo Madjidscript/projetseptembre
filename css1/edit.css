@@ -80,6 +80,7 @@ p a {
   height: 20px;
   filter: invert();
   float: right;
+  display: none;
 }
 .rond {
   width: 80px;

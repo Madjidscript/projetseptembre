@@ -81,7 +81,7 @@ envoyer.addEventListener("click", (e) => {
   if (verifChamp() === true) {
     e.preventDefault();
     alert(
-      "votre paiement a ete effectuer avec succés veuillez verifie votre tableau de bord"
+      "votre contri a ete effectuer avec succés veuillez verifie votre tableau de bord"
     );
     envoie();
     window.location.href = "../corporate2/tableau-bord.html";

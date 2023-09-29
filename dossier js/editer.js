@@ -1,7 +1,7 @@
-let userconnecter = JSON.parse(localStorage.getItem("sex1"));
-let bdUser = JSON.parse(localStorage.getItem("userdonner"));
+let userconnecter = JSON.parse(localStorage.getItem("sex1")) || [];
+let bdUser = JSON.parse(localStorage.getItem("userdonner")) || [];
 let envoieModif = document.querySelector(".envoyer");
-console.log(bdUser);
+console.log(userconnecter);
 
 let nom = document.querySelector("#non");
 let email = document.querySelector("#email");
