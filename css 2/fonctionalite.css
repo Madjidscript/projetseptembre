@@ -31,22 +31,22 @@ body {
 .section1 .contents #card1 {
   background-position: center center;
   background-size: cover;
-  background-image: url(../images/grand1.jpg);
+  background-image: url(../images/prim1.jpg);
 }
 .section1 .contents #card2 {
   background-position: center center;
   background-size: cover;
-  background-image: url(../images/prim2.jpg);
+  background-image: url(../images/grand1.jpg);
 }
 .section1 .contents #card3 {
   background-position: center center;
   background-size: cover;
-  background-image: url(../images/prim1.jpg);
+  background-image: url(../images/prim2.jpg);
 }
 .section1 .contents #card4 {
   background-position: center center;
   background-size: cover;
-  background-image: url(../images/grand1.jpg);
+  background-image: url(../images/prim1.jpg);
 }
 @keyframes slide {
   0%,

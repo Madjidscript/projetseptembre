@@ -74,6 +74,7 @@ p a {
   height: 20px;
   filter: invert();
   float: right;
+  display: none;
 }
 /* @media (max-width: 600px) {
   .champs {

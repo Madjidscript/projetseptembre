@@ -87,6 +87,7 @@ p a {
   height: 20px;
   filter: invert();
   float: right;
+  display: none;
 }
 /* .operateur {
     margin: 30px auto;

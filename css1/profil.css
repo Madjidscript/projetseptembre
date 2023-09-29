@@ -78,6 +78,7 @@
   height: 30px;
   right: 10px;
   position: absolute;
+  display: none;
 }
 /* @media (max-width: 600px) {
       .champs {

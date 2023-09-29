@@ -1,4 +1,4 @@
-let bdDonner = JSON.parse(localStorage.getItem("contribution"));
+let bdDonner = JSON.parse(localStorage.getItem("contribution")) || [];
 
 console.log(bdDonner);
 
@@ -20,7 +20,7 @@ function afficheDataCont() {
 
 document.onload = afficheDataCont();
 
-let messagePaiement = JSON.parse(localStorage.getItem("paiement"));
+let messagePaiement = JSON.parse(localStorage.getItem("paiement")) || [];
 
 function afficheDataPaiement() {
   let date = "";
